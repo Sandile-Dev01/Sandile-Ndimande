@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandile Portfolio Website</title>
+
+    <link rel="icon" type="image/x-icon" href="dev-favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/9c2c64b826.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <!--Customizable Fonts-->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="progress">
+      <span id="progress-value">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </span>
+    </div>
+
+    <header>
+      <div class="logo">
+        <img src="./pictures/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">My Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">My Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!--Introduction-->
+
+      <section class="introduction" id="home">
+
+        <h1
+          class="section-title section-title-introduction main-section-title"
+          id="section-title"
+        >
+          Hi, I am <strong>Sandile Ndimande</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-introduction">
+          front-end developer
+        </p>
+        <img
+          src="./pictures/profilehead.jpg"
+          alt=""
+          class="intro-img-profile"
+        />
+      </section>
+
+      <!--My Services-->
+      <section class="my-services" id="services">
+        <h2 class="section-title section-title-services">What I do</h2>
+
+        <div class="services">
+          <div class="service">
+            <h3 class="service-title">Frontend Developer</h3>
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+          </div>
+          <!-- / service-->
+
+          <div class="service ui-design">
+            <h3 class="service-title">Freelancer</h3>
+            <p>
+              During my spare time I like to help other devs and people in general with their projects.
+            </p>
+          </div>
+          <!-- / service-->
+
+          <div class="service">
+            <h3 class="service-title">UI/UX Designer</h3>
+            <p>
+              I value simple content structure, clean design patterns, and
+              thoughtful interactions that also enhance user experience.
+            </p>
+          </div>
+          <!-- / service-->
+        </div>
+        <!-- / services-->
+
+        <a href="#projects" class="btn">MY WORK</a>
+      </section>
+
+      <!--About me-->
+      <section class="about-me" id="about">
+        <h2 class="section-title section-title-aboutMe">Who I am</h2>
+        <p class="section-subtitle section-subtitle-aboutMe">
+          Web dev based in
+          <strong
+            >South
+            <span class="decorated-Africa">Africa.</span>
+          </strong>
+        </p>
+        <div class="about-me-body">
+          <p>
+            I'm a front-end developer with a working
+            proficiency in <strong class="about-me-content">HTML</strong>,
+            <strong class="about-me-content">CSS</strong> &
+            <strong class="about-me-content">Javascript</strong>. I have a very
+            solid understanding of frameworks such as
+            <strong class="about-me-content">Bootstrap</strong>,
+            <strong class="about-me-content">Tailwind CSS</strong> &
+            <strong class="about-me-content">React JS</strong>. I'm also familiar with
+            <strong class="about-me-content">Git</strong> version control,
+            <strong class="about-me-content">SASS</strong>, <strong class="about-me-content">JQuery</strong>,
+            <strong class="about-me-content">Figma</strong> & <strong class="about-me-content">Canva</strong>
+            . Currently
+            I'm expanding my skill-set by studying and working with back-end technologies like
+            <strong class="about-me-content">PHP</strong> along with
+            <strong class="about-me-content">mySQL</strong>.
+          </p>
+          <p>
+            <strong>NB</strong>: This user right here is a huge soccer fan. He plays and
+            watch a lot of soccer. During his spare time he likes to play chess,
+            read self-development books and watch cartoons.
+
+            He also enjoy some good company where he can be able share some great thought-provoking ideas
+            and have a good debate about them. As a semi-out going person when he does, his first stop is at the beach
+            where likes to enjoy the breeze and have a good sun tan.
+          </p>
+        </div>
+
+        <img
+          src="./pictures/profilesubhead.jpg"
+          alt="a picture of Sandile Ndimande smiling"
+          class="about-me-img"
+        />
+      </section>
+
+      <!--My Work-->
+
+      <section class="my-work" id="projects">
+        <h2 class="section-title-work">My Work</h2>
+        <p class="section-subtitle section-subtitle-work">
+          A selection range of work
+        </p>
+
+        <div class="portfolio">
+          <div class="work-portfolio">
+            <div class="work-portfolio-content">
+
+              <!-- Portfolio item 01-->
+
+              <h3 class="work-portfolio-title">Law Affirmative</h3>
+              <p class="work-portfolio-body">
+                This is an attorney's website which is a landing page,
+                it is reponsive, it's have animations
+                on the background. It also has 
+                some forms popping up when you hover some buttons.
+                
+              </p>
+
+              <p>
+                <i class="fa-brands fa-html5" id="html-icon"></i
+                ><span id="html-text">HTML5</span>
+                <i
+                  class="fa-brands fa-sass"
+                  style="padding-left: 1em"
+                  id="css-icon"
+                ></i
+                ><span id="css-text" style="padding-right: 1em">Sass</span>
+                <i class="fa-brands fa-js" id="js-icon"></i
+                ><span id="js-text">Vanilla JS</span>
+              </p>
+
+              <div class="work-btn">
+                <a href="https://lawaffirmative.sandilendimande.com" class="liveBtn"
+                  ><i class="fa-sharp fa-solid fa-up-right-from-square"></i>
+                  Live
+                </a>
+                <a
+                  href="https://github.com/Sandile-Dev01/law-affirmative"
+                  class="codeBtn"
+                  ><i class="fa-solid fa-file-code"></i>
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-portfolio">
+            <div class="work-portfolio-content">
+              <!-- Portfolio item 02-->
+
+              <h3 class="work-portfolio-title">24/7 Live Clock</h3>
+              <p class="work-portfolio-body">
+                Inspired by a usual clock, this clock runs 24 hours, 7 days a
+                week and it has from seconds to hours arms.
+                <br>
+                The arms move alongside their corresponding lights.
+
+              </p>
+
+              <p>
+                <i class="fa-brands fa-html5" id="html-icon"></i
+                ><span id="html-text">HTML5</span>
+                <i
+                  class="fa-brands fa-css3-alt"
+                  style="padding-left: 1em"
+                  id="css-icon"
+                ></i
+                ><span id="css-text" style="padding-right: 1em">CSS3</span>
+                <i class="fa-brands fa-js" id="js-icon"></i
+                ><span id="js-text">Vanilla JS</span>
+              </p>
+
+              <div class="work-btn">
+                <a
+                  href="https://liveclock.sandilendimande.com"
+                  class="liveBtn"
+                  ><i class="fa-sharp fa-solid fa-up-right-from-square"></i>
+                  Live
+                </a>
+                <a
+                  href="https://github.com/Sandile-Dev01/24-7-Live-Clock"
+                  class="codeBtn"
+                  ><i class="fa-solid fa-file-code"></i>
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-portfolio">
+            <div class="work-portfolio-content">
+              <!-- Portfolio item 03-->
+
+              <h3 class="work-portfolio-title">Big Jo's</h3>
+              <p class="work-portfolio-body">
+                This website offers many dynamic features and a wholesome menu with
+                mouthwatering items, ranging from ghetto fast food to some 5 stars cuisine.
+                
+              </p>
+
+              <p>
+                <i class="fa-brands fa-html5" id="html-icon"></i
+                ><span id="html-text">HTML5</span>
+                <i
+                  class="fa-brands fa-css3-alt"
+                  style="padding-left: 1em"
+                  id="css-icon"
+                ></i
+                ><span id="css-text" style="padding-right: 1em">CSS3</span>
+                <i class="fa-brands fa-js" id="js-icon"></i
+                ><span id="js-text">Vanilla JS</span>
+              </p>
+
+              <div class="work-btn">
+                <a href="https://bigjos.sandilendimande.com" class="liveBtn"
+                  ><i class="fa-sharp fa-solid fa-up-right-from-square"></i>
+                  Live
+                </a>
+                <a href="https://github.com/Sandile-Dev01/Big-Jo-s" class="codeBtn"
+                  ><i class="fa-solid fa-file-code"></i>
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-portfolio">
+            <div class="work-portfolio-content">
+              <!-- Portfolio item 04-->
+
+              <h3 class="work-portfolio-title">Date To-do</h3>
+              <p class="work-portfolio-body">
+                This app offers push notifications when your activity date is
+                due. With this app you can always track your progress and get a
+                daily reminder about it.
+              </p>
+
+              <p>
+                <i class="fa-brands fa-html5" id="html-icon"></i
+                ><span id="html-text">HTML5</span>
+                <i
+                  class="fa-brands fa-css3-alt"
+                  style="padding-left: 1em"
+                  id="css-icon"
+                ></i
+                ><span id="css-text" style="padding-right: 1em">CSS3</span>
+                <i class="fa-brands fa-js" id="js-icon"></i
+                ><span id="js-text">Vanilla JS</span>
+              </p>
+
+              <div class="work-btn">
+                <a href="https://datetodo.sandilendimande.com" class="liveBtn"
+                  ><i class="fa-sharp fa-solid fa-up-right-from-square"></i>
+                  Live
+                </a>
+                <a href="https://github.com/Sandile-Dev01/date-todo-app" class="codeBtn"
+                  ><i class="fa-solid fa-file-code"></i>
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-portfolio">
+            <div class="work-portfolio-content">
+              <!-- Portfolio item 05-->
+
+              <h3 class="work-portfolio-title">Big Jo's Prototype</h3>
+              <p class="work-portfolio-body">
+                This web application is a prototype of the Big Jo's fast food
+                restaurant which I later coded, and it is my first project at which
+                I explored my creative side.
+              </p>
+
+              <p>
+                <i class="fa-brands fa-html5" id="html-icon"></i
+                ><span id="html-text">HTML5</span>
+                <i
+                  class="fa-sharp fa-solid fa-laptop"
+                  style="padding-left: 1em"
+                  id="css-icon"
+                ></i
+                ><span id="css-text" style="padding-right: 1em">Canva</span>
+                <i class="fa-brands fa-figma" id="js-icon"></i>
+                <span id="js-text">Figma</span>
+              </p>
+
+              <div class="work-btn">
+                <a href="https://bigjosprototype.sandilendimande.com" class="liveBtn"
+                  ><i class="fa-sharp fa-solid fa-up-right-from-square"></i>
+                  Live
+                </a>
+                <a href="https://github.com/Sandile-Dev01/bigjosprototype" class="codeBtn"
+                  ><i class="fa-solid fa-file-code"></i>
+                  Source
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+
+      <footer class="footer">
+        <!--email address linkage-->
+        <a href="mailto:ndimandesandile778@gmail.com" class="footer-link"
+          >hello@Sandile.dev</a
+        >
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a class="social-list-link" href="https://github.com/Mcxty">
+              <i class="fa-brands fa-github"></i>Github
+            </a>
+          </li>
+
+          <li class="social-list-item">
+            <a
+              class="social-list-link"
+              href="https://www.linkedin.com/in/sandilendimande/"
+            >
+            <i class="fa-brands fa-linkedin"></i>LinkedIn
+            </a>
+          </li>
+
+          <li class="social-list-item">
+            <a class="social-list-link" href="https://codepen.io/mcxty">
+              <i class="fa-brands fa-codepen"></i>Codepen
+            </a>
+          </li>
+        </ul>
+      </footer>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
